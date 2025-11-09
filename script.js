@@ -10,22 +10,15 @@ function addItem(item) {
     }
 
 }
-console.log(addItem('bread'));
-console.log(addItem('cheese'));
-console.log(addItem('bread'));
-
-console.log(shoppingList)
-
 
 function removeLastItem() {
-    shoppingList.pop(item);
+    shoppingList.pop();
 }
 
+function displayList() {
+    console.log(shoppingList);
+}
 
-// function displayList() {
-//     console.log(shoppingList);
-// }
-
-
-
-
+function filterItems(searchTerm) {
+    return shoppingList.filter( item => item.toLowerCase().includes(searchTerm.toLowerCase()))
+}
