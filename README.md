@@ -1,0 +1,1 @@
+How did array methods like push() and filter() help you manipulate data in this activity? push helpe me because push helps add  items to the end of an array and filter helps create a new array and at the same time 
